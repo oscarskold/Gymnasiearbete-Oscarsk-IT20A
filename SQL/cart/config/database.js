@@ -6,7 +6,7 @@ var con = mysql.createConnection({
     user: 'DBadmin',
     password: 'j59rtVCbYdjHLACb2 ',
     port: '3306',
-    database: 'webdhs'
+    database: ''
 });
 
 module.exports = con;
