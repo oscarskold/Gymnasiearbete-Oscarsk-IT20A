@@ -7,7 +7,7 @@ class Header extends HTMLElement {
       this.innerHTML = `
       <nav>
       <div class="logo nav-pos">
-          <a href="/"><img src="../img/logo-white.png" alt=""><h3>Web-DHS</h3></a>
+          <a href="/"><img src="../img/X.png" alt=""><h3>Web-DHS</h3></a>
       </div>
       <div class="r-side">
       <a href="login" class="nav-items">Login</a>    
@@ -87,12 +87,12 @@ const header = document.querySelector('.header')
 
 navSlide();
 
-const nav = document.querySelector('nav');
+// const nav = document.querySelector('nav');
 
-        window.addEventListener('scroll', () => {
-            if (window.scrollY >= 50) {
-                nav.classList.add('active_nav');
-            } else {
-                nav.classList.remove('active_nav');
-            }
-})
+//         window.addEventListener('scroll', () => {
+//             if (window.scrollY >= 50) {
+//                 nav.classList.add('active_nav');
+//             } else {
+//                 nav.classList.remove('active_nav');
+//             }
+// })
